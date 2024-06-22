@@ -22,5 +22,14 @@ console.log(guestlist);
 let lenghtList = guestlist.length;
 let half = lenghtList / 2;
 guestlist.splice(half, 0, "Ruby");
-console.log(guestlist);
+//append() function to add one new guest to the end of your list.
+function append(a) {
+    guestlist.push(a);
+    console.log(guestlist);
+}
+append("Alina");
+//new message to new list of guest
+for (let i = 0; i < guestlist.length; i++) {
+    console.log(` Hi ${guestlist[i]}! Please join us for a delightful dinner this Saturday at 7 PM. We look forward to an evening of good food and wonderful company!`);
+}
 export {};
