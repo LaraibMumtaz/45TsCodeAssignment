@@ -17,3 +17,4 @@ console.log("sorted array in alphabatically-order changed", arryLocation.sort())
 //Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
 console.log("sorted array-order changed in reverse alphabatically:", arryLocation.reverse());
 export {};
+//
